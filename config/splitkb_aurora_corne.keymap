@@ -41,7 +41,7 @@
 &kp ESC  &kp F1   &kp F2   &kp F3   &kp F4    &trans                    &kp PAGE_UP    &kp LPAR    &kp RPAR      &kp BACKSLASH  &kp SLASH  &kp EQUAL
 &trans   &kp F5   &kp F6   &kp F7   &kp F8    &kp C_VOLUME_UP           &kp PAGE_DOWN  &kp MINUS   &kp QUESTION  &kp LBKT       &kp RBKT   &kp TILDE
 &trans   &kp F9   &kp F10  &kp F11  &kp F12   &kp C_VOLUME_DOWN         &kp INS        &kp DELETE  &kp COMMA     &kp PERIOD     &kp EQUAL  &trans
-                           &trans   &trans    &trans                    &trans         &mo 3       &trans
+                           &trans   &trans    &trans                    &trans         &mo 3       &kp K_MUTE
                         >;
                 };
 
