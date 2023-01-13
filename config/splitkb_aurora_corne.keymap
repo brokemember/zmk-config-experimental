@@ -10,12 +10,12 @@
 
 / {
     behaviors {
-        td1: tap_dance_0 {
+        td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp N3>;
+            tapping-term-ms = <300>;
+            bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp LEFT_GUI>;
         };
     };
 
