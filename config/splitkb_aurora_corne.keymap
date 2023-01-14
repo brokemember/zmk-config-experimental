@@ -11,28 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-/ {
-    behaviors {
-        bhm: balanced_homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;    // <---[[moderate duration]]
-            quick-tap-ms = <0>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
-    };
 
-    keymap {
-        compatible = "zmk,keymap";
-        default_layer {
-            bindings = <
-                &bhm LCTRL A &bhm LGUI R &bhm LALT S &bhm LSHIFT T
-            >;
-        };
-    };
-};
 / {
     behaviors {
         td1: tap_dance_1 {
